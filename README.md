@@ -2,14 +2,22 @@
 
 Bootstrap Golang project.
 
-HTTPS service to locally develop on.
+HTTP and HTTPS service to locally develop on.
 
-# Build
+# Quickstart
+
+Quickly hosting ./ files
 
 ```
 make
+./http
 ```
 
-# Setup DNS
+# Setup DNS and Certificate
 
 Generate all the certs needed for local development.
+
+```
+brew install dnsmasq
+./scripts/cert.sh selfsign
+```

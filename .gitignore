@@ -1,0 +1,4 @@
+vendor
+http
+wildcard.crt
+wildcard.key
